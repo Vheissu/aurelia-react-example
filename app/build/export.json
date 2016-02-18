@@ -12,6 +12,7 @@
     "jspm_packages/github/github/fetch@0.10.1/fetch.js",
     "jspm_packages/npm/babel-runtime@5.8.35/**",
     "jspm_packages/npm/core-js@2.0.3/**",
+    "jspm_packages/github/floatdrop/**",
     "dist/app-build-*.js",
     "dist/aurelia-*.js"
   ]
