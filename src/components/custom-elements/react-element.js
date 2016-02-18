@@ -27,6 +27,10 @@ export class ReactElement {
         this.render();
     }
     
+    unbind() {
+        ReactDOM.unmountComponentAtNode(this.element);
+    }
+    
     /**
      * Data Changed
      * 
