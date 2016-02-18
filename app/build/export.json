@@ -1,0 +1,18 @@
+{
+  "list": [
+    "index.html",
+    "config.js",
+    "LICENSE",
+    "jspm_packages/github/systemjs/**",
+    "jspm_packages/system.js",
+    "jspm_packages/system.js.map",
+    "jspm_packages/system-polyfills.js",
+    "jspm_packages/system-csp-production.js",
+    "jspm_packages/github/github/fetch@0.10.1.js",
+    "jspm_packages/github/github/fetch@0.10.1/fetch.js",
+    "jspm_packages/npm/babel-runtime@5.8.35/**",
+    "jspm_packages/npm/core-js@2.0.3/**",
+    "dist/app-build-*.js",
+    "dist/aurelia-*.js"
+  ]
+}

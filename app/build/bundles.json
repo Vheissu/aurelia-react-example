@@ -1,0 +1,40 @@
+{
+  "bundles": {
+    "dist/app-build": {
+      "includes": [
+        "[**/*.js]",
+        "**/*.html!text",
+        "*.css!text"
+      ],
+      "options": {
+        "inject": true,
+        "minify": true,
+        "depCache": true,
+        "rev": true
+      }
+    },
+    "dist/aurelia": {
+      "includes": [
+        "aurelia-framework",
+        "aurelia-bootstrapper",
+        "aurelia-event-aggregator",
+        "aurelia-fetch-client",
+        "aurelia-history-browser",
+        "aurelia-loader-default",
+        "aurelia-logging-console",
+        "aurelia-router",
+        "aurelia-templating-binding",
+        "aurelia-templating-resources",
+        "aurelia-templating-router",
+        "fetch",
+        "react",
+        "react-dom"        
+      ],
+      "options": {
+        "inject": true,
+        "minify": false,
+        "rev": true
+      }
+    }
+  }
+}

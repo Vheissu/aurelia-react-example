@@ -1,6 +1,3 @@
-node_modules
-jspm_packages
-bower_components
-.DS_STORE
-/dist
-build/reports
+app/dist
+app/jspm_packages
+app/node_modules
